@@ -1,12 +1,12 @@
 # Healthcare-EDI-Data-Validation-and-Analysis
 Healthcare EDI Data Validation and Analysis is a project focused on processing, validating, and analyzing Electronic Data Interchange (EDI) files common in healthcare, such as 834 (benefit enrollment) and 837 (claims) transactions.
 
-Project Overview
+📽️📽️📽️Project Overview
 This project builds a system to parse EDI X12 files, perform syntax and semantic validation per HIPAA standards, and generate insights from the data. It addresses real-world needs like error detection in claims processing to reduce denials and improve revenue cycle management. The solution emphasizes compliance, scalability, and visualization for healthcare data analysts.
 
 
 
-Key Objectives
+🗝️🗝️🗝️🗝️Key Objectives
 Validate EDI structure, segments, and elements against standards like X12 and HIPAA guidelines.
 
 Identify errors such as missing mandatory fields, invalid codes, or balancing issues (e.g., totals matching line items).
@@ -15,7 +15,7 @@ Analyze validated data for trends, like claim denial rates or enrollment pattern
 
 
 
-Core Components
+🥧🥧Core Components
 EDI Parser: Use libraries like pyX12 or edi-835-parser to read and segment files.
 
 Validation Engine: Implement rules for syntax (structure), semantics (business logic), and compliance (HIPAA loops like 2000A/2300).
@@ -26,7 +26,7 @@ Reporting: Generate error logs, summary stats, and visualizations.
 
 
 
-Tech Stack
+🧑‍💻🧑‍💻Tech Stack
 Component	Tools/Technologies
 Parsing	Python (pyX12, pandas), Node.js
 Validation	Custom rules, Schematron, STK
@@ -36,7 +36,7 @@ Visualization	Power BI, Tableau, Matplotlib
 
 
 
-Implementation Steps
+🧖‍♀️🧖‍♀️Implementation Steps
 Ingest sample EDI files (834/837) from public sources like CMS test decks.
 
 Build a parser to extract loops/segments into structured data (JSON/DF).
